@@ -9,19 +9,31 @@
 </head>
 
 <body>
-    <h2>Foto Galeria</h2>
-    <video id="camara" autoplay playinline></video>
+    <header>
+        <h1>Foto Galeria</h1>
+        <div id="video-container">
+            <div id="video">
+                <video id="camara" autoplay playsinline></video>
+            </div>
+            <div>
+                <button id="tomar-foto">Tomar Foto</button>
+                <button id="borrar-todo">Borrar Todo</button>
+            </div>
 
-
-    <p>
-        <button id="tomar-foto">Tomar Foto</button>
-        <button id="borrar-foto">Borrar Foto</button>
-
-    </p>
-
-    <h2>Galeria de fotos</h2>
+        </div>
+    </header>
+    <h1>Galeria de fotos</h1>
 
     <div id="galeria"></div>
+
+
+    <footer>
+
+        <p>Mónico Bellón Morales</p>
+        <p>Curso de desarrollo de Aplicaciones Web</p>
+
+    </footer>
+
 
     <script src="js/index.js"></script>
 </body>
